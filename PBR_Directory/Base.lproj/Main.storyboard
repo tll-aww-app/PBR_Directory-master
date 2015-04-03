@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JsQ-tj-eI2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PBR_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TrqsBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Ug-Dg-tc5">
+                                <rect key="frame" x="-5" y="125" width="606" height="480"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JN3-yf-QUB">
+                                <rect key="frame" x="16" y="365" width="55" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="qwp-By-mH1"/>
+                                    <constraint firstAttribute="width" constant="55" id="y8S-zy-Pf8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="DINING">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnL-1h-kgD">
+                                <rect key="frame" x="16" y="395" width="90" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NM4-Ud-dF3"/>
+                                    <constraint firstAttribute="width" constant="90" id="vF5-3p-yUu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="ACTIVITIES">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4W5-ay-LRO">
+                                <rect key="frame" x="16" y="433" width="64" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TBW-1m-pyT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="CONTACT">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bku-ea-f1t">
+                                <rect key="frame" x="16" y="251" width="137" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Kej-W9-dYS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="CHECK-IN POLICIES">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTj-XY-3rN">
+                                <rect key="frame" x="16" y="289" width="163" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2Ui-nm-APr"/>
+                                    <constraint firstAttribute="width" constant="163" id="r0c-o3-eaR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="AMENITIES &amp; SERVICES">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYR-rF-boU">
+                                <rect key="frame" x="16" y="327" width="163" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TdY-vb-v7k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="HOTEL MAPS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2G-T7-EAV">
+                                <rect key="frame" x="16" y="471" width="79" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ISK-KE-thx"/>
+                                    <constraint firstAttribute="width" constant="79" id="x3g-Ob-w3G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="LOCATE US">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3r-ll-tfE">
+                                <rect key="frame" x="16" y="505" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="F6c-3n-Hyj"/>
+                                    <constraint firstAttribute="height" constant="30" id="XlR-KE-75x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="RESERVATIONS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="NsK-CY-NWo">
+                                <rect key="frame" x="419" y="238" width="165" height="288"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="B5Y-7T-7Mz"/>
+                                </constraints>
+                                <string key="text">Nestled on an island oasis where the pelicans perch, the blue herons stroll and sugar white sand and emerald waters are so captivating you won’t want to leave, Perdido Beach Resort awaits.  Experience the family-friendly, personal service that makes the Perdido Beach Resort a luxury resort vacation destination right on the beach and a place where generations of families continue to return year after year.  Situated directly on the Gulf of Mexico in Orange Beach, Alabama, Perdido Beach Resort is exclusively located near Alabama Point, locally known as “The Pass”, where the Intracoastal Waterway meets the deep waters of the Gulf, and boaters take voyage for their afternoon venture.
+
+Convenient to both Gulf Shores, Alabama and Pensacola, Florida, The hotel features 346 luxurious guestrooms with private balconies, multiple restaurants, an indoor/outdoor pool, fitness center, tennis courts, and much more.</string>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT PERDIDO BEACH RESORT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODi-gl-lVA">
+                                <rect key="frame" x="419" y="217" width="170" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="9"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vsQ-Io-oLj">
+                                <rect key="frame" x="137" y="520" width="140" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="neA-oF-HvH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PBR_Front.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YJl-hX-DDa">
+                                <rect key="frame" x="0.0" y="64" width="600" height="145"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBO-bE-Ui9">
+                                <rect key="frame" x="16" y="213" width="91" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uJX-7W-Ari"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="ROOM TYPES">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.62" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tud-8w-pgw" kind="show" id="w01-Y7-psh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vsQ-Io-oLj" firstAttribute="leading" secondItem="e2G-T7-EAV" secondAttribute="leading" constant="121" id="1Qe-pF-4Ox"/>
+                            <constraint firstItem="e2G-T7-EAV" firstAttribute="leading" secondItem="4W5-ay-LRO" secondAttribute="leading" id="58R-uO-see"/>
+                            <constraint firstItem="bku-ea-f1t" firstAttribute="leading" secondItem="XBO-bE-Ui9" secondAttribute="leading" id="8BZ-5X-EGZ"/>
+                            <constraint firstItem="YJl-hX-DDa" firstAttribute="leading" secondItem="1Ug-Dg-tc5" secondAttribute="leading" constant="5" id="94B-XT-Nie"/>
+                            <constraint firstItem="JN3-yf-QUB" firstAttribute="leading" secondItem="WYR-rF-boU" secondAttribute="leading" id="9UB-0l-TAT"/>
+                            <constraint firstItem="ODi-gl-lVA" firstAttribute="top" secondItem="YJl-hX-DDa" secondAttribute="bottom" constant="8" symbolic="YES" id="CoM-qK-uUF"/>
+                            <constraint firstItem="fnL-1h-kgD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Czv-mI-8e3"/>
+                            <constraint firstItem="GTj-XY-3rN" firstAttribute="leading" secondItem="bku-ea-f1t" secondAttribute="leading" id="D95-9M-hG8"/>
+                            <constraint firstItem="vsQ-Io-oLj" firstAttribute="top" secondItem="4W5-ay-LRO" secondAttribute="bottom" constant="57" id="GnU-hc-wRw"/>
+                            <constraint firstItem="K3r-ll-tfE" firstAttribute="leading" secondItem="e2G-T7-EAV" secondAttribute="leading" id="J2U-tD-TbV"/>
+                            <constraint firstItem="GTj-XY-3rN" firstAttribute="trailing" secondItem="WYR-rF-boU" secondAttribute="trailing" id="NKS-G1-zic"/>
+                            <constraint firstItem="YJl-hX-DDa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Nny-oi-dQO"/>
+                            <constraint firstItem="WYR-rF-boU" firstAttribute="top" secondItem="GTj-XY-3rN" secondAttribute="bottom" constant="8" symbolic="YES" id="QS3-cT-4cA"/>
+                            <constraint firstItem="GTj-XY-3rN" firstAttribute="top" secondItem="bku-ea-f1t" secondAttribute="bottom" constant="8" symbolic="YES" id="SKX-U4-nbJ"/>
+                            <constraint firstItem="e2G-T7-EAV" firstAttribute="top" secondItem="4W5-ay-LRO" secondAttribute="bottom" constant="8" symbolic="YES" id="b0R-iG-wqv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NsK-CY-NWo" secondAttribute="bottom" constant="74" id="d9Y-mW-vWc"/>
+                            <constraint firstItem="fnL-1h-kgD" firstAttribute="centerX" secondItem="XBO-bE-Ui9" secondAttribute="centerX" id="dWs-iX-YWz"/>
+                            <constraint firstItem="XBO-bE-Ui9" firstAttribute="top" secondItem="NsK-CY-NWo" secondAttribute="top" constant="-25" id="ddv-LM-kn6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vsQ-Io-oLj" secondAttribute="bottom" constant="8" id="dfW-PG-6Rp"/>
+                            <constraint firstItem="bku-ea-f1t" firstAttribute="top" secondItem="XBO-bE-Ui9" secondAttribute="bottom" constant="8" symbolic="YES" id="fEv-fC-gvm"/>
+                            <constraint firstItem="fnL-1h-kgD" firstAttribute="leading" secondItem="4W5-ay-LRO" secondAttribute="leading" id="flJ-tv-6k9"/>
+                            <constraint firstItem="NsK-CY-NWo" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="fpi-5Q-8WE"/>
+                            <constraint firstItem="WYR-rF-boU" firstAttribute="leading" secondItem="GTj-XY-3rN" secondAttribute="leading" id="ftJ-7r-XJl"/>
+                            <constraint firstItem="NsK-CY-NWo" firstAttribute="top" secondItem="ODi-gl-lVA" secondAttribute="bottom" id="g3f-mY-ikl"/>
+                            <constraint firstItem="fnL-1h-kgD" firstAttribute="top" secondItem="JN3-yf-QUB" secondAttribute="bottom" constant="3" id="hFI-y7-PYH"/>
+                            <constraint firstItem="JN3-yf-QUB" firstAttribute="top" secondItem="WYR-rF-boU" secondAttribute="bottom" constant="8" symbolic="YES" id="hSM-FP-HRB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="e2G-T7-EAV" secondAttribute="bottom" constant="99" id="hi5-j4-uHy"/>
+                            <constraint firstItem="ODi-gl-lVA" firstAttribute="trailing" secondItem="NsK-CY-NWo" secondAttribute="trailing" constant="5" id="iHl-PB-obu"/>
+                            <constraint firstItem="1Ug-Dg-tc5" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="5" id="mBY-X5-e3R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Ug-Dg-tc5" secondAttribute="trailing" constant="-17" id="qD9-Nq-u8P"/>
+                            <constraint firstItem="4W5-ay-LRO" firstAttribute="top" secondItem="fnL-1h-kgD" secondAttribute="bottom" constant="8" symbolic="YES" id="qDg-Lw-fVQ"/>
+                            <constraint firstItem="K3r-ll-tfE" firstAttribute="top" secondItem="e2G-T7-EAV" secondAttribute="bottom" constant="4" id="tI1-jG-w7B"/>
+                            <constraint firstItem="1Ug-Dg-tc5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-5" id="tcu-eg-2ZK"/>
+                            <constraint firstAttribute="trailing" secondItem="YJl-hX-DDa" secondAttribute="trailing" id="vyk-AX-ynu"/>
+                            <constraint firstItem="XBO-bE-Ui9" firstAttribute="top" secondItem="YJl-hX-DDa" secondAttribute="bottom" constant="4" id="xzh-6y-IHq"/>
+                            <constraint firstItem="ODi-gl-lVA" firstAttribute="leading" secondItem="NsK-CY-NWo" secondAttribute="leading" id="y5V-jh-J0i"/>
+                            <constraint firstItem="fnL-1h-kgD" firstAttribute="leading" secondItem="JN3-yf-QUB" secondAttribute="leading" id="zb3-7C-gOx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="plJ-HS-C7b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107" y="388"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wHN-Ps-gj7">
+            <objects>
+                <viewController id="tud-8w-pgw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3vg-je-hSo"/>
+                        <viewControllerLayoutGuide type="bottom" id="jE8-aH-ou3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oXS-lc-b8h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TrqsBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgy-w3-8AQ">
+                                <rect key="frame" x="-4" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roomBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DwR-83-SMA">
+                                <rect key="frame" x="0.0" y="52" width="600" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Room Types" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqx-Tb-4tu">
+                                <rect key="frame" x="468" y="60" width="195" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="UpD-Oo-eHe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DL7-uP-b5W">
+                                <rect key="frame" x="243" y="160" width="115" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="048-cx-H21"/>
+                                    <constraint firstAttribute="height" constant="38" id="1Lz-zX-1Ml"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="GULF FRONT">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSm-IR-3lc">
+                                <rect key="frame" x="241" y="206" width="118" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="6VY-ub-4bZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="Z0F-0E-4R1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="POOL VIEW">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cz-6A-o1I">
+                                <rect key="frame" x="258" y="244" width="85" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GjK-8t-aLB"/>
+                                    <constraint firstAttribute="width" constant="85" id="XK5-kS-l1r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="DELUXE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE8-X5-yxe">
+                                <rect key="frame" x="202" y="282" width="196" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="1pZ-0d-4gw"/>
+                                    <constraint firstAttribute="height" constant="30" id="3H4-ux-iNK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="COURTYARD SUITE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOG-b9-tvL">
+                                <rect key="frame" x="152" y="320" width="297" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RUg-oD-vfW"/>
+                                    <constraint firstAttribute="width" constant="297" id="g1A-6l-j7M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="ONE-BEDROOM EXECUTIVE SUITE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7A-mn-h9F">
+                                <rect key="frame" x="148" y="360" width="304" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="Mv6-cC-WtC"/>
+                                    <constraint firstAttribute="width" constant="304" id="QKN-Nu-XJa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="TWO-BEDROOM EXECUTIVE SUITE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwk-22-uGf">
+                                <rect key="frame" x="181" y="389" width="238" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="JWq-mN-EIf"/>
+                                    <constraint firstAttribute="width" constant="238" id="iFN-cl-S95"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="MAKE A RESERVATION">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.73999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fCE-2b-hgl">
+                                <rect key="frame" x="137" y="520" width="140" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Kx0-LE-nQl"/>
+                                    <constraint firstAttribute="height" constant="72" id="gSO-sn-ng8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*all rooms within this facility are non-smoking rooms" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEs-bQ-uaZ">
+                                <rect key="frame" x="164" y="475" width="272" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="hW2-IU-mNi"/>
+                                    <constraint firstAttribute="width" constant="272" id="qjj-D4-sCN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Italic" family="Verdana" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DwR-83-SMA" firstAttribute="leading" secondItem="oXS-lc-b8h" secondAttribute="leading" id="0KI-Zc-EP0"/>
+                            <constraint firstItem="fgy-w3-8AQ" firstAttribute="leading" secondItem="oXS-lc-b8h" secondAttribute="leadingMargin" constant="-20" id="3vH-Ia-QAh"/>
+                            <constraint firstItem="B7A-mn-h9F" firstAttribute="centerX" secondItem="MOG-b9-tvL" secondAttribute="centerX" id="55W-lf-qn0"/>
+                            <constraint firstItem="fgy-w3-8AQ" firstAttribute="top" secondItem="oXS-lc-b8h" secondAttribute="top" id="8r1-bD-Rpq"/>
+                            <constraint firstItem="Mwk-22-uGf" firstAttribute="centerX" secondItem="B7A-mn-h9F" secondAttribute="centerX" id="Aeu-LA-a8Y"/>
+                            <constraint firstItem="zSm-IR-3lc" firstAttribute="centerX" secondItem="DL7-uP-b5W" secondAttribute="centerX" id="BEe-Yb-2Rj"/>
+                            <constraint firstItem="fgy-w3-8AQ" firstAttribute="bottom" secondItem="jE8-aH-ou3" secondAttribute="top" id="CEv-9W-4J6"/>
+                            <constraint firstItem="Mwk-22-uGf" firstAttribute="top" secondItem="B7A-mn-h9F" secondAttribute="bottom" constant="10" id="Egu-W0-qu2"/>
+                            <constraint firstItem="4Cz-6A-o1I" firstAttribute="centerX" secondItem="ZE8-X5-yxe" secondAttribute="centerX" id="GAH-4F-sPe"/>
+                            <constraint firstItem="fCE-2b-hgl" firstAttribute="top" secondItem="dEs-bQ-uaZ" secondAttribute="bottom" constant="18" id="Iou-6T-jJU"/>
+                            <constraint firstAttribute="trailing" secondItem="DwR-83-SMA" secondAttribute="trailing" id="M1j-Xb-dTN"/>
+                            <constraint firstItem="ZE8-X5-yxe" firstAttribute="centerX" secondItem="MOG-b9-tvL" secondAttribute="centerX" id="Mq9-zF-sxB"/>
+                            <constraint firstItem="jE8-aH-ou3" firstAttribute="top" secondItem="fCE-2b-hgl" secondAttribute="bottom" constant="8" symbolic="YES" id="PEx-W6-eKx"/>
+                            <constraint firstItem="fCE-2b-hgl" firstAttribute="leading" secondItem="oXS-lc-b8h" secondAttribute="leading" constant="137" id="Q2h-xA-eoM"/>
+                            <constraint firstItem="zSm-IR-3lc" firstAttribute="centerX" secondItem="4Cz-6A-o1I" secondAttribute="centerX" id="Sxa-bC-3cX"/>
+                            <constraint firstItem="DwR-83-SMA" firstAttribute="top" secondItem="oXS-lc-b8h" secondAttribute="topMargin" constant="52" id="URe-Br-y5j"/>
+                            <constraint firstItem="MOG-b9-tvL" firstAttribute="top" secondItem="ZE8-X5-yxe" secondAttribute="bottom" constant="8" symbolic="YES" id="Xt2-Q7-uD3"/>
+                            <constraint firstItem="4Cz-6A-o1I" firstAttribute="top" secondItem="zSm-IR-3lc" secondAttribute="bottom" constant="8" symbolic="YES" id="Y8e-ej-Rwp"/>
+                            <constraint firstItem="DL7-uP-b5W" firstAttribute="centerX" secondItem="DwR-83-SMA" secondAttribute="centerX" id="cZ8-ff-ye6"/>
+                            <constraint firstItem="zSm-IR-3lc" firstAttribute="top" secondItem="DL7-uP-b5W" secondAttribute="bottom" constant="8" symbolic="YES" id="dua-14-quH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fgy-w3-8AQ" secondAttribute="trailing" constant="-12" id="gKO-V0-onU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yqx-Tb-4tu" secondAttribute="trailing" constant="-79" id="jPp-pv-FHQ"/>
+                            <constraint firstItem="dEs-bQ-uaZ" firstAttribute="top" secondItem="Mwk-22-uGf" secondAttribute="bottom" constant="59" id="m0v-vP-WJE"/>
+                            <constraint firstItem="B7A-mn-h9F" firstAttribute="top" secondItem="MOG-b9-tvL" secondAttribute="bottom" constant="10" id="uij-Qu-MDf"/>
+                            <constraint firstItem="jE8-aH-ou3" firstAttribute="top" secondItem="Yqx-Tb-4tu" secondAttribute="bottom" constant="492" id="wCJ-Q0-DDw"/>
+                            <constraint firstItem="Mwk-22-uGf" firstAttribute="centerX" secondItem="dEs-bQ-uaZ" secondAttribute="centerX" id="yQE-76-MYV"/>
+                            <constraint firstItem="DL7-uP-b5W" firstAttribute="top" secondItem="DwR-83-SMA" secondAttribute="bottom" constant="8" symbolic="YES" id="ypA-QY-L4W"/>
+                            <constraint firstItem="ZE8-X5-yxe" firstAttribute="top" secondItem="4Cz-6A-o1I" secondAttribute="bottom" constant="8" symbolic="YES" id="yvt-s3-Y5n"/>
+                            <constraint firstItem="Yqx-Tb-4tu" firstAttribute="top" secondItem="oXS-lc-b8h" secondAttribute="topMargin" constant="60" id="z6n-fy-PUc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wL0-HD-FSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-656" y="1041"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="k3h-Ut-PuZ">
+            <objects>
+                <navigationController id="JsQ-tj-eI2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8a4-Mh-QMz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RsP-Pl-jB0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qAA-vD-d27" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-540" y="-341"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PBR_Front.jpg" width="671" height="480"/>
+        <image name="TrqsBackground.png" width="480" height="480"/>
+        <image name="logo.png" width="250" height="150"/>
+        <image name="roomBanner.jpg" width="708" height="123"/>
+    </resources>
+</document>
